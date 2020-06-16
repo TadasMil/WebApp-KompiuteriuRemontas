@@ -1,0 +1,223 @@
+h1 {
+    margin: 0;
+}
+
+.main-background_image{
+    height: 95%;
+    background-image: url("images/background-image.jpeg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.main-background_image p{ 
+    top: 50%;
+    left: 50%;
+    color: #f8f8f8;
+    font-size: 2.2rem;
+    margin: 1rem 1rem;
+    font-weight:bold;
+    text-align: center;
+    
+}
+
+.main-background_image a{
+    padding: 1.2rem 4rem;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #fff;
+    color: black;
+    border: 1px solid #000;
+    margin-top: 6rem;
+    font-weight: lighter;
+    outline: none;
+    letter-spacing: 4px;
+    text-decoration: none;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.1s;
+    
+ }
+
+ .main-background_image a:hover{
+     color: white;
+     background-color: black;
+
+ }
+
+
+
+ /* SECTIONS */
+
+ .main-page_presentation_text {
+     text-align: center;
+     margin: 0 auto;
+     padding: 2rem;
+     text-align: center;
+     font-size: 1.5rem;
+     font-weight: bold;  
+ }
+
+ .main-page_presentation_text p{
+     padding-top: 1rem;
+     text-transform: uppercase;
+     letter-spacing: 16px;
+ }
+ 
+ .main-page_section{
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     padding: 5px;
+     max-width: 2500px;
+ }
+
+ .main-section_about{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #ffffff;
+     border: 1px solid #f0f0f0;
+     padding: 1rem;
+     margin: 5px;
+     width: 30%;
+     
+ }
+
+ .main-section_about img {
+    width: 200px;
+ }
+
+ .main-page-section_presentation {
+     display: flex;
+    justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+ }
+
+
+ .presentation-text_style {
+     font-weight: bold;
+     font-size: 1.2rem;
+     margin: 0;
+     padding: 0;
+ }
+
+ .main-page-section_presentation p{
+     text-align: center;
+     color: #000000;
+     margin: 1rem 0;
+     padding: 0;
+ }
+
+ .main-stay_updated {
+     width: 91%;
+     margin: 3rem auto;
+     background: white;
+     padding: 3rem 0;
+     max-width: 2270px;
+ }
+
+ .main-stay_updated h1{
+ text-align: center;
+}
+
+ .social-update_list{
+     display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+ }
+
+
+ .main-stay-updated_newsletter,
+ .main-stay-updated_social{
+    margin: 2rem auto;
+    font-size: 1rem;
+ }
+
+ .main-stay-updated_newsletter p,
+ .main-stay-updated_social p{
+     margin: 1rem;
+ }
+
+ .main-stay-updated_social img{
+    margin: 0.6rem 0.8rem;
+}
+
+.submit-email {
+    margin-top: 1rem;
+}
+
+
+.submit-email [type="email"]{ 
+   transition: 0.5s;
+   height: 35px;
+   width: 200px;
+   border: none;
+   outline: none;
+   background-color: #d4d3d3;
+   border-radius: 25px 0 0 25px;
+   padding: 0 25px;
+   left: 50%;
+
+}
+
+.submit-email [type="submit"] {
+   border-radius: 0 25px 25px 0;
+   height: 35px;
+   width: 80px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+
+}
+
+.submit-email [type="submit"]:hover{
+   background-color: #888888;
+   color: black;
+}
+
+/* SMALL SCREENS LESS THEN 750PX */
+
+
+@media (max-width: 750px){
+    .main-background_image p{
+        font-size: 1.5rem;
+    }
+    .main-page_section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-section_about{
+        width: 90%;
+        background-color: #ffffff;
+        border: 1px solid #f0f0f0;
+    }
+    
+ .social-update_list {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .main-stay_updated{
+        padding: 1rem 0;
+        width: 90%;
+    }
+    .vl{
+        transform: rotate(180deg);
+    }
+
+}
