@@ -28,7 +28,7 @@ background-color: #f8f8f8;
     width: 80vw;
     z-index: 10000;
     height: 100vh;
-    transform: translateX(-130%);
+    transform: translateX(130%);
     transition: transform 1000ms;
 }
 
@@ -170,7 +170,7 @@ background-color: #f8f8f8;
 
     .open{
         display: block;
-        transform: translateX(-30%);
+        transform: translateX(0);
     }
     
     .footer-list_elements{ 

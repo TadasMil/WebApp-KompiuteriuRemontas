@@ -1,0 +1,110 @@
+.about-us_one{
+    width: 85%;
+    margin: 6rem auto;
+}
+
+.about-us_one h3{
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    color: #525252;
+}
+
+.about-us_presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.presentation_one{
+    text-align: left;
+    padding: 0 0.5rem;
+}
+
+.presentation_one p{
+    column-count: 2;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.about-us_two{
+    background: white;
+    padding: 1rem;
+}
+
+.about-us_two h3{
+    text-transform: uppercase;
+    color: #525252;
+    width: 85%;
+    margin: 2rem auto;
+    letter-spacing: 0.2rem;
+}
+
+.presentation-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85%;
+    margin: 3rem auto;
+    text-align: center; 
+}
+
+.presentation-two div{
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.presentation-two div:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition:1s;
+}
+
+.collapsible-section_list{
+    margin: 5rem auto;
+    width: 55%;
+}
+
+.collapsible-section_list > p{
+text-transform: capitalize;
+color: #525252;
+font-size: 1rem;
+letter-spacing: 0.1rem;
+}
+
+.collapsible-section_list h3{
+    margin-left: 0;
+}
+
+.collapsible-section{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    font: inherit;
+    text-align: left;
+    border-bottom: 1px solid #888888;
+    font-size: 1.3rem;
+
+}
+
+.collapsible-section div{
+    float: right;
+}
+
+.collapsible-section:hover,
+.collapsible-section div:hover{
+    color: #5f5f5f;
+}
+.content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
