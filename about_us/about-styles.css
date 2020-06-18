@@ -1,13 +1,68 @@
+.about-us-back_img{
+    background: url("../images/img5.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+}
+
+.about-us-first_presentation{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color:  hsl(0, 0%, 0%, 0.5);
+    padding: 2rem 0;
+    color: #ffffff;
+}
+
+.about-us-first_presentation_position{
+    width: 80%;
+    margin: auto;
+}
+
+
+.about-us-first_presentation h3{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.about-us-first_presentation p{
+    margin: 2rem 0;
+}
+
+.about-us_button button{
+    border-radius: 80px;
+    padding: 1rem 2rem;
+    border: 0;
+    outline: 0;
+    background-color: #888888;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 2px 2px #525252;
+    cursor: pointer;
+}
+
+.about-us_button button:hover{
+    background-color: #4b4b4b;
+    transition: 1s;
+}
+
 .about-us_one{
     width: 85%;
-    margin: 6rem auto;
+    margin: 5rem auto;
 }
 
 .about-us_one h3{
-    letter-spacing: 0.7rem;
+    letter-spacing: 0.5rem;
     text-transform: uppercase;
+    text-align: center;
     padding-left: 2rem;
     color: #525252;
+    font-size: 1.5rem;
 }
 
 .about-us_presentation{
@@ -19,10 +74,10 @@
 .presentation_one{
     text-align: left;
     padding: 0 0.5rem;
+    text-align: center;
 }
 
 .presentation_one p{
-    column-count: 2;
     font-size: 1rem;
     line-height: 1.5;
 }

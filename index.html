@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/82b111cf0f.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main_styles.css">
     <link rel="stylesheet" href="styles/button-styles.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 
@@ -19,7 +20,7 @@
         <p>Greitai ir kokybiškai!</p>
         <a href="#features">Plačiau</a>
     </div>
-    <head er class="main-page_header">
+    <header class="main-page_header">
         <nav class="nav-bar">
             <div class="toggle">
                 <a href="index.html"><img class="logo-image" src="images/logo-image.png" alt=""></a>         
@@ -44,7 +45,7 @@
         </div>
             <div class="mobile-nav">
                 <ul class="nav-bar-ul_mobile">
-                    <a href="index.html">Apie mus</a>
+                    <a href="about_us/index.html">Apie mus</a>
                     <a href="about_us/index.html">Paslaugos</a>
                     <a href="index.html">Dažniausi klausimai</a>
                     <a href="index.html">Kontaktai</a>
@@ -73,7 +74,7 @@
             </div>
         </div>
 
-        <div class="main-section_about">
+        <div class="main-section_about" ">
             <div class="main-page-section_presentation">
                 <img src="https://img.icons8.com/plasticine/100/000000/time.png" />
                 <p class="presentation-text_style">Greitas aptarnavimas</p>
@@ -87,7 +88,7 @@
             </div>
         </div>
 
-        <div class="main-section_about">
+        <div class="main-section_about" >
             <div class="main-page-section_presentation">
                 <img src="https://img.icons8.com/nolan/96/paper.png" />
                 <p class="presentation-text_style">Garantija</p>
@@ -98,6 +99,7 @@
             <div class="button_cont"><a class="example_f" href="add-website-here" target="_blank" rel="nofollow">
                     <span>Plačiau</a>
             </div>
+        </div>
         </div>
 
     </section>
@@ -150,7 +152,11 @@
     </footer>
 
 
-    <script src="shared.js"></script> 
+    <script src="shared.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

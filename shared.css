@@ -14,7 +14,7 @@ body, html {
 
 body{ 
 font-size: 1rem;
-font-family: 'Sriracha', cursive;
+font-family: 'Montserrat', sans-serif;
 background-color: #f8f8f8;
 }
 
@@ -80,6 +80,7 @@ background-color: #f8f8f8;
     align-items: center;
 }
 
+
 .logo-image{
     padding-left: 1rem;
     width: 6rem;
@@ -102,7 +103,7 @@ background-color: #f8f8f8;
     text-decoration: none;
     padding-right: 2rem;
     padding: 1rem;
-    color: black;  
+    color: black;
 }
 
 .nav-bar-ul_list a:hover,
