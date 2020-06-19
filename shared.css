@@ -82,7 +82,7 @@ background-color: #f8f8f8;
 
 
 .logo-image{
-    padding-left: 1rem;
+    vertical-align: middle;
     width: 6rem;
     height: 100%;
     margin: 0.5rem;
@@ -180,13 +180,14 @@ background-color: #f8f8f8;
 
     .footer-info{
         margin: auto;
-        width: 50%;
+        width: 100%;
     }
 
     .toggle{
         padding: 0.5rem;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         
     }
 

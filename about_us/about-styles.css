@@ -16,6 +16,7 @@
     width: 100%;
     background-color:  hsl(0, 0%, 0%, 0.5);
     padding: 2rem 0;
+    margin-bottom: 2rem;
     color: #ffffff;
 }
 
@@ -34,18 +35,6 @@
     margin: 2rem 0;
 }
 
-.about-us_button button{
-    border-radius: 80px;
-    padding: 1rem 2rem;
-    border: 0;
-    outline: 0;
-    background-color: #888888;
-    color: white;
-    font-size: 1rem;
-    box-shadow: 2px 2px #525252;
-    cursor: pointer;
-}
-
 .about-us_button button:hover{
     background-color: #4b4b4b;
     transition: 1s;
@@ -60,7 +49,7 @@
     letter-spacing: 0.5rem;
     text-transform: uppercase;
     text-align: center;
-    padding-left: 2rem;
+    margin: 0 1rem 0 1rem;
     color: #525252;
     font-size: 1.5rem;
 }
@@ -98,17 +87,18 @@
 .presentation-two{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 85%;
     margin: 3rem auto;
-    text-align: center; 
+    text-align: center;
+    flex-wrap: wrap;
 }
 
-.presentation-two div{
+.presentation-two_items{
     padding: 0 1rem;
     text-transform: uppercase;
     font-size: 1.1rem;
     line-height: 1.8;
+    flex: 25%;
 }
 
 .presentation-two div:hover{
@@ -120,7 +110,7 @@
 
 .collapsible-section_list{
     margin: 5rem auto;
-    width: 55%;
+    width: 65%;
 }
 
 .collapsible-section_list > p{
@@ -139,19 +129,23 @@ letter-spacing: 0.1rem;
     cursor: pointer;
     outline: none;
     border: none;
-    padding: 1.5rem;
+    padding: 1.5rem 0 0.5rem 0;
     font-weight: bold;
     background-color: transparent;
     font: inherit;
     text-align: left;
     border-bottom: 1px solid #888888;
     font-size: 1.3rem;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.collapsible-section div{
-    float: right;
+.collapsible-section p{
+margin-left: 1rem;
 }
+
 
 .collapsible-section:hover,
 .collapsible-section div:hover{
@@ -162,4 +156,169 @@ letter-spacing: 0.1rem;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+}
+
+.presentation{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.presentation_text{
+    padding: 4rem 0; 
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.presentation_text p{
+    color: #424242;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin: 0;
+}
+
+.presentation_text h4{
+    font-size: 2.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.presentation_image{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.presentation-image_full{
+    flex: 20%;
+    margin: 1rem 0.5rem;
+}
+
+.presentation-image_full img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.presentation-image_full p{
+    text-align: left;
+}
+
+.presentation-image_full p:nth-child(2){
+    color: #424242;
+    text-transform: uppercase;
+    margin: 1rem 0.5rem 0.5rem 0;
+}
+
+.presentation-image_full p:nth-child(3){
+ font-size: 1.5rem;
+ margin: 0;
+}
+
+.about-aside_job{
+    margin: 4rem auto;
+    width: 85%;
+}
+
+.about-job {
+    background-color: white;
+    padding: 4rem 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.about-job h4{
+font-size: 1.8rem;
+margin: 2rem 1rem;
+text-transform: capitalize;
+letter-spacing: 5px;
+}
+
+@media (max-width: 920px){
+    .presentation-image_full{
+        flex: 40%;
+    }
+
+    .presentation-two div{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 660px){
+
+    .about-us-back_img {
+        background-position: 70% 50%;
+    }
+    .presentation-image_full{
+        flex-direction: column;
+        flex: 100%;
+    }
+
+    .presentation-two_items{
+        flex: 40%;
+        margin: 1rem 0;
+    }
+
+    .collapsible-section_list {
+        width: 90%;
+    }
+
+    .collapsible-section_list > p{ 
+        text-align: center;
+    }
+
+    .about-us_two h3{
+        text-align: center;
+    }
+
+    .about-job h4{
+        font-size: 1.4rem;
+    }
+
+    .presentation_text p{
+        font-size: 0.9rem;
+    }
+
+    .presentation_text h4{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 430px){
+
+    .presentation-two{
+        flex-direction: column;
+    }
+
+.collapsible-section{
+    font-size: 1rem;
+}
+
+    .presentation_text{
+        padding: 1.5rem 0;
+    }
+
+    .presentation-two div {
+        font-size: 1.1rem;
+    }
+    .presentation_text p{
+        font-size: 0.7rem;
+    }
+
+    .presentation_text h4{
+        font-size: 1.1rem;
+    }
+
+    .about-job h4{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px){
+    .about-us-first_presentation{
+        top: 40%;
+    }
 }
