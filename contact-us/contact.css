@@ -3,3 +3,80 @@
     height: 50vh;
     margin-top: 4.5rem;
 }
+
+.contact-us{
+    margin: 5rem auto;
+    width: 80%;
+}
+
+.contact-heading h2{
+    text-align: center;
+    padding: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #525252
+    
+}
+
+.contact-heading span{
+   padding-bottom: 1rem;
+    border-bottom: 1.5px solid #525252;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info-map_form{
+    flex: 50%;
+    margin: 1rem;
+}
+
+.contact-info_social{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+
+}
+
+.info-address-phone{
+    margin: 0.2rem;
+}
+
+.info-address-phone img,
+.info-address-phone p{
+display: inline-block;
+padding: 0.3rem;
+vertical-align: middle;
+margin: 0;
+}
+
+.info-social{
+    margin: 0.2rem 0.2rem;
+}
+
+.info-social a{
+    padding: 0 0.6rem;
+
+}
+
+.contact-info-map_form h3{
+    margin: 0.5rem;
+}
+
+.contact-form form{
+display: flex;
+flex-direction: column;
+}
+
+.contact-info-map_form input,
+.contact-info-map_form textarea{
+    padding: 0.5rem;
+}
+
+.contact-info-map_form textarea{
+    resize: none;
+    height: 150px;
+}
+
