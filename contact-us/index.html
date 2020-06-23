@@ -1,110 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/82b111cf0f.js" crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="../shared.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="main-page_header">
         <nav class="nav-bar">
             <div class="toggle">
-                <a href="../index.html"><img class="../logo-image" src="../images/logo-image.png" alt=""></a>         
+                <a href="../index.html"><img class="logo-image" src="../images/logo-image.png" alt=""></a>
                 <i id="collapse" class="fas fa-bars hamburger-button"></i>
             </div>
-            <div  class="nav-bar_list">
-                <img class="logo-image" src="../images/logo-image.png" alt="">
-                
+            <div class="nav-bar_list">
+                <a href="../index.html"><img class="logo-image" src="../images/logo-image.png" alt=""></a>
+
                 <ul class="nav-bar-ul_list">
                     <a href="../about_us/index.html">Apie mus</a>
                     <a href="../about_us/index.html">Paslaugos</a>
-                    <a href="index.html">Dažniausi klausimai</a>
+                    <a href="../faq/index.html">D.U.K</a>
                     <a href="index.html">Kontaktai</a>
 
                 </ul>
-                
+
             </div>
         </nav>
         <nav class="mobile">
             <div class="mobile-nav_icon">
                 <i class="fas fa-times fa-2x"></i>
-        </div>
+            </div>
             <div class="mobile-nav">
                 <ul class="nav-bar-ul_mobile">
                     <a href="../about_us/index.html">Apie mus</a>
                     <a href="../about_us/index.html">Paslaugos</a>
-                    <a href="../about_us/index.html">Dažniausi klausimai</a>
+                    <a href="../faq/index.html">D.U.K</a>
                     <a href="index.html">Kontaktai</a>
-                </ul> 
+                </ul>
             </div>
-       
+
         </nav>
     </header>
-<!--
-    <section class="contact-us_map">
-            <div id="map">
 
+    <section class="contact-form">
+        <section class="contact-form_map">
+            <h2>Susisiekite</h2>
+            <p>Mums bus malonu jum padėti</p>
+            <div class="form-input">
+                <form action="/action_page.php">
+                    <input type="text" id="fname" name="fname" placeholder="Vardas*"><br>
+                    <input type="text" id="lname" name="lname" placeholder="Pavardė*"><br>
+                    <input type="text" id="lname" name="lname" placeholder="Telefono numeris*"><br>
+                    <input type="email" id="lname" name="lname" placeholder="El. paštas*"><br>
+                    <textarea type="text" placeholder="Žinutė*"></textarea><br>
+                </form>
             </div>
-    </section>
--->
+            <input class="button" type="submit" value="Patvirtinti">
+        </section>
 
-    <section class="contact-us">
-        <div class="contact-heading">
-            <h2><span> Susisiekite</span></h2>
-        </div>
-        <div class="contact-info">
-            <div class="contact-info-map_form">
-                <div class="contact-info_social">
-                    <div class="info-address-phone">
-                    <img src="https://img.icons8.com/android/24/000000/marker.png"/>
-                    <p>Saltoniškių 13, Vilnius</p>
+        <section class="contact-form_map">
+            <h2>Kur galima mus rasti?</h2>
+            <div class="contact-map">
+                <div class="contact-info_map">
+                    <div>
+                    <h3>Lietuva</h3><br>
                     </div>
-                    <div class="info-address-phone">
-                    <img src="https://img.icons8.com/android/24/000000/phone.png"/>
-                    <p>+3706125485</p>
+                    <div class="contact-info-icons_text">
+                        <img src="https://img.icons8.com/android/24/000000/marker.png"/>
+                        <p>Saltoniškių 13</p>
                     </div>
-                    <div class="info-social">
-                    <a href="https://www.facebook.com"><img src="https://img.icons8.com/android/24/000000/facebook-new.png"/></a>
-                    <a href="https://www.twitter.com"><img src="https://img.icons8.com/android/24/000000/twitter.png"/></a>
-                    <a href="https://www.instagram.com"><img src="https://img.icons8.com/material/24/000000/instagram-new.png"/></a>
+                    <div class="contact-info-icons_text">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/organization.png"/>
+                        <p>Vilnius</p>
+                    </div>
+                    <div class="contact-info-icons_text">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/zip-code.png"/>
+                        <p>LT-05895</p>
+                    </div>
+                    <div class="contact-info-icons_text">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/phone.png"/>
+                        <p>+370612548</p>
+                    </div>
+                    <div class="contact-info-icons_text">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/phone.png"/>
+                        <p>1668</p>
+                    </div>
+                    <div class="contact-info-icons_text">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/email.png"/>
+                        <p>INFO@KR-REMONTAS.LT</p>
                     </div>
                 </div>
-
-                <div class="contact-info-map">
+                <div class="contact-info_map" id="map-class">
                     <div id="map">
 
                     </div>
                 </div>
             </div>
-
-            <div class="contact-info-map_form">
-                <h3>Palikite mums žinutę:</h3>
-                <div class="contact-form">
-                <form action="/action_page.php">             
-                    <input type="text" id="fname" name="fname" placeholder="Vardas"><br>
-                    <input type="email" id="lname" name="lname" placeholder="El. paštas"><br>                    
-                    <textarea type="text" placeholder="Žinutė"></textarea><br>
-                    <input type="submit" value="Submit">
-                </form> 
-                </div>
-            </div>
-            
-        </div>
+        </section>
     </section>
 
+
+    <footer class="footer">
+        <div class="footer-list_elements">
+        <div class="footer-info">
+            <h4>Kontaktai</h2>
+            <p>Saltoniškių 13, Vilnius</p>
+            <p>+370589752</p>
+            <p>info@KR-remontas.lt</p>
+        </div>
+
+        <div class="footer-info">
+            <h4>Socialiniai tinklai</h2>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Twitter</p>
+        </div>
+
+        <div class="footer-info">
+            <h4>Nutarimai</h2>
+            <p>Sąlygos</p>
+            <p>Remonto darbų priedai</p>
+            <p>Taisyklės</p>
+        </div>
+    </div>
+    <p class="footer-copyright">&copy; 2020 Kompiuterių remontas</p>
+    </footer>
 
 
 
 
     <script src="contact.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtzxmdj5cFCJNDYL3A-MnFX9aMJH8Aryk&callback=initMap&region=JP"></script>
-      
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtzxmdj5cFCJNDYL3A-MnFX9aMJH8Aryk&callback=initMap&libraries=&v=weekly"></script>
+    <script src="https://kit.fontawesome.com/82b111cf0f.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.js"></script>
     <script src="../shared.js"></script>
 </body>
+
 </html>
