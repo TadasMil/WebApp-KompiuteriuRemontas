@@ -1,0 +1,167 @@
+.faq-find_question{
+    height: 45vh;
+    background: url(../images/fac-back-img.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;   
+}
+
+.find-back_img{
+text-align: center;
+
+}
+
+
+.img-help h2,
+.img-help input, 
+.img-help p{
+margin: 1rem;
+color: #555555;
+}
+
+.img-help h2{
+   
+    font-size: 1.7rem;
+}
+
+.img-help [type="text"]{
+width: 45vw;
+padding: 1rem 1.2rem;
+border-radius: 30px;
+outline: none;
+border: none;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    background: white;
+    padding-bottom: 1rem;
+}
+
+main > p{
+   margin: 0 auto;
+   padding: 4rem 0  0;
+   width: 80%;
+   font-size: 1.4rem;
+}
+
+.main-questions{
+    width:  80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.questions-answers{
+    flex: 30%;
+    border-bottom: 1px solid hsl(0, 0%, 33%, 0.1);
+    padding-bottom: 1.5rem;
+    margin:1.5rem 0.5rem;
+}
+
+.questions-answers h4{
+    color: #93b199;
+    font-size: 1.2rem;
+}
+
+.questions-answers ul {
+    padding: 0;
+    margin: 0.5rem;
+}
+
+.questions-answers li{
+    display: flex;
+    flex-direction: column;
+}
+
+.questions-answers a{ 
+    text-decoration: none;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    color: black;
+    font-size: 1rem;
+}
+
+.answers a:hover{
+    color: blue;
+}
+
+@media (max-width: 900px){
+    .main-questions{
+        flex-direction: column;
+        text-align: center;
+     
+    }
+
+    main{
+        width: 100%;
+    }
+
+    main > p{
+        margin-bottom: 1.2rem;
+    }
+
+    .questions-answers{
+        border: none;
+        margin: 0;
+        text-align: left;
+        padding: 0;
+    }
+
+    .answers a{
+        border-bottom: 1px solid rgb(85, 85, 85, 0.3);
+        padding-bottom: 1rem;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 700px){
+
+    .faq-find_question {
+        height: auto;
+        margin-top: 90.7px;
+    }
+
+   .find-back_img{
+       margin-top: 0;
+       width: 100%;
+   }
+
+   .img-help{
+       width: 100%;
+   }
+    .img-help h2, 
+    .img-help p{
+        display: none;
+    }
+
+
+    .img-help [type="text"]{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    main p{
+        font-size: 1.2rem;
+        text-align: left;
+        padding-top: 3rem;
+    }
+
+
+    .questions-answers a{
+        margin: 1rem 0;
+    }
+
+}
