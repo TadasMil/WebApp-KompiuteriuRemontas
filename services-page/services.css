@@ -46,7 +46,7 @@
 
 .services-prices h2{
     text-transform: uppercase;
-    color: #121125;
+    color: #12103a;
     letter-spacing: 10px;
     margin: 2rem 0;
 
@@ -110,6 +110,10 @@
   }
 
   @media(max-width: 700px){
+
+    .services-main_description{
+        text-align: center;
+    }
 
     .services-main_img{
         margin-top: 90.7px;

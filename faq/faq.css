@@ -1,13 +1,13 @@
 .faq-find_question{
-    height: 45vh;
-    background: url(../images/fac-back-img.jpg);
+    height: 35vh;
+    background: url(../images/services-back-img.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;   
+    margin-top: 74.7px;   
 }
 
 .find-back_img{
@@ -20,7 +20,7 @@ text-align: center;
 .img-help input, 
 .img-help p{
 margin: 1rem;
-color: #555555;
+color: #ffffff;
 }
 
 .img-help h2{
@@ -30,7 +30,7 @@ color: #555555;
 
 .img-help [type="text"]{
 width: 45vw;
-padding: 1rem 1.2rem;
+padding: 0.8rem 1rem;
 border-radius: 30px;
 outline: none;
 border: none;
@@ -60,13 +60,13 @@ main > p{
 
 .questions-answers{
     flex: 30%;
-    border-bottom: 1px solid hsl(0, 0%, 33%, 0.1);
+    border-bottom: 1px solid hsl(243, 37%, 11%, 0.2);
     padding-bottom: 1.5rem;
     margin:1.5rem 0.5rem;
 }
 
 .questions-answers h4{
-    color: #93b199;
+    color: #12103a;
     font-size: 1.2rem;
 }
 
@@ -162,6 +162,7 @@ main > p{
 
     .questions-answers a{
         margin: 1rem 0;
+        font-size: 15px;
     }
 
 }
