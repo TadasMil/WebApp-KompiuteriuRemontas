@@ -40,6 +40,7 @@
     outline: none;
     border-bottom: 1px solid #000000;
     color: #000000;
+    font-weight: bold;
     background-color: transparent;
 }
 
@@ -50,19 +51,24 @@
     font-size: 1.2rem;
   }
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  :-ms-input-placeholder,
+  :-ms-textarea-placeholder { /* Internet Explorer 10-11 */
    color: #000000;
    font-weight: 500;
    font-size: 1.2rem;
   }
 
-  ::-ms-input-placeholder { /* Microsoft Edge */
+  ::-ms-input-placeholder,
+  :-ms-textarea-placeholder { /* Microsoft Edge */
    color: #000000;
    font-weight: 500;
    font-size: 1.2rem;
   }
 
-
+  textarea {
+    font-family: inherit;
+    font-size: inherit;
+ }
 
 .form-input form textarea{
     flex: 100%;
