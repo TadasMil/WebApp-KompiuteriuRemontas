@@ -46,7 +46,7 @@
 
 .services-prices h2{
     text-transform: uppercase;
-    color: #4d4981;
+    color: #121125;
     letter-spacing: 10px;
     margin: 2rem 0;
 
@@ -92,7 +92,7 @@
 
 
 .services-price_table th{
-    background-color: #4d4981;
+    background-color: #121125;
 }
 
 .services-price_table tr:nth-child(even) {

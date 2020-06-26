@@ -143,6 +143,10 @@ background-color: #f8f8f8;
     width: 30%;
 }
 
+.footer-info a{
+    text-decoration: none;
+}
+
 .footer-info p,
 .footer-copyright{
     color: #888888;
