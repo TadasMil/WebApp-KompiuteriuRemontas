@@ -83,7 +83,7 @@ background-color: #f8f8f8;
 
 .logo-image{
     vertical-align: middle;
-    width: 6rem;
+    width: 96px;
     height: 100%;
     margin: 0.5rem;
     
@@ -104,6 +104,7 @@ background-color: #f8f8f8;
     padding-right: 2rem;
     padding: 1rem;
     color: black;
+    font-size: 1rem;
 }
 
 .nav-bar-ul_list a:hover,

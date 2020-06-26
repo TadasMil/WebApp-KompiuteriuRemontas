@@ -1,0 +1,157 @@
+.services-main{
+    margin-top: 74.7px;
+}
+
+.services-main_img{
+    background: url(../images/services-back-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    margin-top: 74.7px;
+}
+
+
+.services-main_description{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: auto auto;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.services-main_description h3{
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    letter-spacing: 10px;
+    margin:0;
+}
+
+.services-main_description h5{
+    margin: 0.5rem 0;
+    font-size: 1.9rem;
+}
+
+
+/* presentations */
+
+
+.services-prices{
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.services-prices h2{
+    text-transform: uppercase;
+    color: #4d4981;
+    letter-spacing: 10px;
+    margin: 2rem 0;
+
+}
+
+.services-price_table{
+    width: 100%;
+}
+
+.services-price_table tbody{
+    width: 100%;
+    table-layout:fixed;
+
+}
+
+.services-price_table th{
+    color: #ffffff;
+}
+
+
+.services-price_table th,
+.services-price_table td{
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #d3d3d3;
+    font-size: 0.9rem;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+
+.first {
+    width: 25%;
+}
+
+.middle{
+    width: 60%;
+}
+
+.third{
+    width: 15%;
+}
+
+
+.services-price_table th{
+    background-color: #4d4981;
+}
+
+.services-price_table tr:nth-child(even) {
+    background-color: #d3d3d3;
+  }
+
+  @media(max-width: 900px){
+    .services-main_description h3{
+        font-size: 2rem;
+     }
+     
+     .services-main_description h5{
+      font-size: 1rem;
+     }
+  }
+
+  @media(max-width: 700px){
+
+    .services-main_img{
+        margin-top: 90.7px;
+    }
+
+    .services-prices h2{
+        font-size: 1rem;
+    }
+  }
+
+
+  @media (max-width: 480px){
+
+    .services-prices{
+        width: 90%;
+    }
+
+    .services-prices h2{
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        margin: 1rem 0.5rem 1rem 0;
+    }
+
+    .services-main_img{
+        height: 30vh;
+    }
+    
+    .services-main_description h3{
+        font-size: 1.1rem;
+     }
+     
+     .services-main_description h5{
+      font-size: 0.8rem;
+     }
+
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+
+    .services-price_table th,
+    .services-price_table td{
+        font-size: 0.7rem;
+    }
+  }
